@@ -11,7 +11,7 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class JavaJenkinsApplication {
 	
-	static Logger log = LoggerFactory.getLogger(JavaJenkinsApplication.class);
+	public static Logger log = LoggerFactory.getLogger(JavaJenkinsApplication.class);
 
 	@PostConstruct
 	public void initt() {
