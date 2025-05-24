@@ -20,7 +20,7 @@ public class JavaJenkinsApplication {
 	
 	public static void main(String[] args) {
 		log.info("########################Welcome to the Pipeline Jobs########################");
-		log.info("Java and Jenkins Demo Application Started....")
+		log.info("Java and Jenkins Demo Application Started....");
 		SpringApplication.run(JavaJenkinsApplication.class, args);
 	}
 
